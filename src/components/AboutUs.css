@@ -49,7 +49,7 @@
   }
   
   .welcome-text {
-    font-size: 1.2em;
+    font-size: 2.2em;
     color: #333;
     margin-bottom: 10px;
   }
@@ -107,21 +107,6 @@
   }
   
 
-  
-  .timeline {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-  }
-  
-  .timeline-item {
-    width: 30%;
-  }
-  
-  .timeline-item img {
-    width: 100%;
-  }
-  
   .steps {
     display: flex;
     justify-content: space-around;

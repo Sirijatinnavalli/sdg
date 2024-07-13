@@ -4,7 +4,8 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: #0b2447; /* Dark blue background color */
+    background-color:#333; /* Dark blue background color */
+    margin-bottom: 20px;
   }
   
   .stat-item {
@@ -14,7 +15,7 @@
   
   .stat-item i {
     font-size: 2em;
-    color: #0099ff; /* Blue color for icons */
+    color: #3DB166; /* Blue color for icons */
     margin-bottom: 10px;
   }
   

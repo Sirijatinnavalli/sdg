@@ -6,9 +6,11 @@ import member3 from '../assets/images/member3.jpg';
 import member4 from '../assets/images/member4.jpg';
 import member5 from '../assets/images/member5.jpg';
 import member6 from '../assets/images/member6.jpg';
+
 const Team = () => {
- return ( 
-<div className="team">
+  return (
+    
+      <div className="team">
         <h2>Our Team</h2>
         <div className="team-members">
           <div className="team-row">
@@ -58,8 +60,10 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </div>
-      );
-      };
+        </div>
+       
+    
+  );
+};
 
-      export default Team;
+export default Team;

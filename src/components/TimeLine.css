@@ -1,0 +1,20 @@
+ 
+  .timeline {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .timeline-item {
+    
+    align-items: left;
+    width: 30%;
+  }
+  
+  .timeline-item img {
+    width: 100%;
+  }
+  .h3{
+    text-align: left;
+  }
+ 

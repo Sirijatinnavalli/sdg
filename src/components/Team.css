@@ -1,11 +1,16 @@
+
+
 .team {
-    margin: 20px 0;
-    background-color: #e2e6ec;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+  margin: 50px;
+  background-color: #e2e6ec;
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 70px;
   
+  
+}
+
   .team-members {
     display: flex;
     flex-direction: column;
@@ -44,4 +49,3 @@
     font-size: 1em;
     color: #666;
   }
-    

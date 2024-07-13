@@ -7,6 +7,8 @@ import './App.css';
 import Stats from './components/Stats';
 import Team from './components/Team';
 import WorkProcess from './components/WorkProcess';
+import HorizontalLine from './components/HorizontalLine';
+import TimeLine from './components/TimeLine'
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Header />
       <main>
         <AboutUs />
+        <HorizontalLine/>
+        <TimeLine/>
         <Stats/> {/* Include Stats component */}
         <WorkProcess/>
         <Team/>

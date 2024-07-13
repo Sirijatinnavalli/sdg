@@ -76,9 +76,9 @@ const styles = {
     textAlign: 'center',
   },
   stepNumber: {
-    backgroundColor: '#007bff',
+    backgroundColor: '#e0f7ea',
     borderRadius: '50%',
-    color: '#fff',
+    color: 'green',
     display: 'inline-block',
     fontSize: '1.5em',
     height: '50px',
@@ -100,7 +100,7 @@ const styles = {
   },
   arrow: {
     fontSize: '2em',
-    color: '#007bff',
+    color: 'green',
   },
 };
 

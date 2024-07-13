@@ -6,9 +6,7 @@ import './AboutUs.css';
 import image1 from '../assets/images/image1.jpg';
 import image2 from '../assets/images/image2.jpg';
 
-import image1985 from '../assets/images/1985.jpg';
-import image1990 from '../assets/images/1990.jpg';
-import image2001 from '../assets/images/2001.jpg';
+
 import { FaCheckCircle } from 'react-icons/fa';  // Import tick mark icon from react-icons
 
 const AboutUs = () => {
@@ -38,24 +36,7 @@ const AboutUs = () => {
 
    
 
-      <div className="timeline">
-        <div className="timeline-item">
-          <img src={image1985} alt="1985" />
-          <h3>1985</h3>
-          <p>Start with a small service</p>
-        </div>
-        <div className="timeline-item">
-          <img src={image1990} alt="1990" />
-          <h3>1990</h3>
-          <p>First employees</p>
-        </div>
-        <div className="timeline-item">
-          <img src={image2001} alt="2001" />
-          <h3>2001</h3>
-          <p>First recognition</p>
-        </div>
-      </div>
-
+ 
 
       
     </div>
