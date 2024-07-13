@@ -56,28 +56,6 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="steps">
-        <div className="step">
-          <img src="path/to/image4.jpg" alt="Project Discussion" />
-          <h4>Project Discussion</h4>
-          <p>Explanation of the project discussion phase.</p>
-        </div>
-        <div className="step">
-          <img src="path/to/image5.jpg" alt="Testing & Trying" />
-          <h4>Testing & Trying</h4>
-          <p>Explanation of the testing & trying phase.</p>
-        </div>
-        <div className="step">
-          <img src="path/to/image6.jpg" alt="Execute & Install" />
-          <h4>Execute & Install</h4>
-          <p>Explanation of the execute & install phase.</p>
-        </div>
-        <div className="step">
-          <img src="path/to/image7.jpg" alt="We Care About" />
-          <h4>We Care About</h4>
-          <p>Explanation of the we care about phase.</p>
-        </div>
-      </div>
 
       
     </div>

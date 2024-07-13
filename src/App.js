@@ -6,6 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
 import Stats from './components/Stats';
 import Team from './components/Team';
+import WorkProcess from './components/WorkProcess';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <main>
         <AboutUs />
         <Stats/> {/* Include Stats component */}
+        <WorkProcess/>
         <Team/>
         <Footer /> {/* Include Footer */}
 
