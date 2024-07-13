@@ -19,17 +19,28 @@
     margin-bottom: 50px;
   }
   
+  .intro-container {
+    display: flex;
+    align-items: center; /* Vertically align the items */
+    justify-content: space-between; /* Distribute space between items */
+  }
+  
   .intro-images {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 20%; /* Adjusted to make space for images */
+    width: 30%; /* Adjust the width as needed */
   }
   
   .intro-images img {
     width: 100%;
     border-radius: 30px; /* Optional: Rounded corners for the images */
   }
+  
+  .intro-text {
+    width: 65%; /* Adjust the width as needed */
+  }
+  
   
   .intro-text {
     width: 60%;

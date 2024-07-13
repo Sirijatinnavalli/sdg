@@ -15,6 +15,7 @@ const AboutUs = () => {
   return (
     <div className="about-us">
       <div className="intro-section">
+      <div class="intro-container">
         <div className="intro-images">
           <img src={image1} alt="Team meeting" />
           <img src={image2} alt="Office workspace" />
@@ -32,6 +33,7 @@ const AboutUs = () => {
           </ul>
           <button className="cta-button">Read More About Us</button>
         </div>
+      </div>
       </div>
 
    
