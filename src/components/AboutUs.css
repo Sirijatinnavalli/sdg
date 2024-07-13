@@ -95,18 +95,7 @@
     background-color: #192F59;
   }
   
-  .stats {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(6, 6, 46, 0.8);
-    color: #fff;
-    padding: 50px;
-    margin-bottom: 100px;
-  }
-  
-  .stats div {
-    text-align: center;
-  }
+
   
   .timeline {
     display: flex;
@@ -136,53 +125,6 @@
     width: 100%;
   }
   
-  .team {
-    margin: 20px 0;
-    background-color: #e2e6ec;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .team-members {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .team-row {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  .member {
-    display: flex;
-    align-items: center;
-    width: 30%; /* Adjusted width to fit three members in a row */
-  }
-  
-  .member img {
-    width: 100px; /* Adjusted size */
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px; /* Space between image and text */
-  }
-  
-  .member-info {
-    text-align: left;
-  }
-  
-  .member h3 {
-    margin: 0;
-    font-size: 1.2em;
-  }
-  
-  .member p {
-    font-size: 1em;
-    color: #666;
-  }
   
   .contact {
     margin: 20px 0;
@@ -191,3 +133,68 @@
   .contact p {
     margin: 10px 0;
   }
+
+  /* Existing CSS */
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+  .intro-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-images img {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .intro-text {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .tick-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .tick-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline-item {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+}

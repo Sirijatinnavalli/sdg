@@ -55,3 +55,22 @@ a:hover {
   text-decoration: underline; /* Underline on hover */
   color: #3DB166; /* Primary Color */
 }
+/* Existing CSS for App.css */
+
+/* Global styles for the app */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Main section styles */
+main {
+  padding: 20px;
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+  header, main, footer {
+    padding: 10px;
+  }
+}

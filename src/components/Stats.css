@@ -1,0 +1,20 @@
+/* Stats.css */
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #0b2447; /* Dark blue background color */
+  }
+  
+  .stat-item {
+    text-align: center;
+    color: #fff; /* White text color */
+  }
+  
+  .stat-item i {
+    font-size: 2em;
+    color: #0099ff; /* Blue color for icons */
+    margin-bottom: 10px;
+  }
+  
