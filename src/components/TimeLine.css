@@ -1,8 +1,18 @@
  
+  .container{
+    background-color:  #F2F2F2;
+    padding-left:0;
+    padding-right:0;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    
+  }
+ 
   .timeline {
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
+    margin: 0;
   }
   
   .timeline-item {
@@ -17,4 +27,25 @@
   .h3{
     text-align: left;
   }
- 
+  .line {
+    flex-grow: 1;
+    height: 4px;
+    background-color:#3DB166;
+    margin: 0 5px;
+  }
+  .line-container {
+    display: flex;
+    align-items: center;
+    margin-bottom:0;
+  }
+  
+  .circle {
+    width: 12px;
+    height: 12px;
+    background-color: #3DB166;
+    border-radius: 50%;
+  }
+  .years{
+    align-items: left;
+    width: 30%;
+  }

@@ -51,7 +51,7 @@ const WorkProcess = () => {
 
 const styles = {
   container: {
-    backgroundColor: '#222',
+    backgroundColor: '#192F59',
     color: '#fff',
     fontFamily: 'Arial, sans-serif',
     textAlign: 'center',

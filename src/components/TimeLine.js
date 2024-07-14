@@ -5,26 +5,43 @@ import image2001 from '../assets/images/2001.jpg';
 import './TimeLine.css';
 const TimeLine=()=>{ 
     return ( 
+      
+<div className="container"> 
+  
+
+
+
+<div className="line-container">
+      <div className="circle"></div>
+      <div className="line"></div>
+      <div className="circle"></div>
+      <div className="line"></div>
+      <div className="circle"></div>
+      <div className="line"></div>
+    </div>
 <div className="timeline">
 <div className="timeline-item">
-<h2 className='h3'>1985</h2>
+<h2 className='h3' style={{ color: 'black'  }}>1985</h2>
   <img src={image1985} alt="1985" />
   
-  <p>Start with a small service</p>
+  <p style={{ color: 'black', fontWeight: 'bold' }}>Start with a small service</p>
 </div>
 <div className="timeline-item">
-<h2 className='h3'>1990</h2>
+
+<h2 className='h3' style={{ color: 'black' }}>1990</h2>
   <img src={image1990} alt="1990" />
   
-  <p>First employees</p>
+  <p style={{ color: 'black' , fontWeight: 'bold'}}>First employees</p>
 </div>
 <div className="timeline-item">
-<h2 className='h3'>2001</h2>
+<h2 className='h3'style={{ color: 'black' }}>2001</h2>
   <img src={image2001} alt="2001" />
   
-  <p>First recognition</p>
+  <p style={{ color: 'black' , fontWeight: 'bold' }}>First recognition</p>
 </div>
 </div>
+</div>
+
 )
 }
 

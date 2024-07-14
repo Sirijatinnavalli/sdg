@@ -19,9 +19,9 @@ const AboutUs = () => {
           <img src={image2} alt="Office workspace" />
         </div>
         <div className="intro-text">
-          <p className="welcome-text">• WELCOME TO OUR COMPANY</p>
+          <p className="welcome-text" style={{ color: 'green', fontWeight: 'bold' }}>• WELCOME TO OUR COMPANY</p>
           <h1>Connecting People And Build Technology</h1>
-          <p className="experience-text" style={{ color: 'green' }}>Years of Experience</p>
+          <p className="experience-text" style={{ color: 'green', fontWeight: 'bold' }}>Years of Experience</p>
           <p className="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <ul className="tick-list">
             <li><FaCheckCircle className="tick-icon" /> All in one IT solution company</li>

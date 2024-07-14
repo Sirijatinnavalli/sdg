@@ -6,11 +6,14 @@
     padding: 20px;
     background-color:#192F59; /* Dark blue background color */
     margin-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
   }
   
   .stat-item {
     text-align: center;
     color: #fff; /* White text color */
+    font-size: large;
   }
   
   .stat-item i {
