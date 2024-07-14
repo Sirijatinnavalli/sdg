@@ -1,5 +1,6 @@
 import React from 'react';
-import './WorkProcess.css'; 
+import './WorkProcess.css';
+
 const steps = [
   {
     number: "01",
@@ -70,10 +71,12 @@ const styles = {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
+    flexWrap: 'wrap',
   },
   step: {
     maxWidth: '250px',
     textAlign: 'center',
+    marginBottom: '20px',
   },
   stepNumber: {
     backgroundColor: '#e0f7ea',
@@ -101,6 +104,14 @@ const styles = {
   arrow: {
     fontSize: '2em',
     color: 'green',
+  },
+  '@media (max-width: 768px)': {
+    steps: {
+      flexDirection: 'column',
+    },
+    arrow: {
+      display: 'none',
+    },
   },
 };
 
