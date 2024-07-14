@@ -17,9 +17,10 @@ function App() {
       <Header />
       <main>
         <AboutUs />
+        <Stats/> 
         <HorizontalLine/>
         <TimeLine/>
-        <Stats/> {/* Include Stats component */}
+        {/* Include Stats component */}
         <WorkProcess/>
         <Team/>
         <Footer /> {/* Include Footer */}
