@@ -195,3 +195,22 @@
   }
 
 }
+.intro-images {
+  position: relative;
+  padding: 20px;
+  background: #e2e6ec; /* Adjust the background color as needed */
+  border-radius: 10px; /* Adjust the border radius as needed */
+  display: flex;
+  gap: 20px; /* Space between the images */
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Center the images vertically */
+
+}
+
+.intro-image {
+  width: 45%; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 10px; /* Adjust the border radius as needed */
+  object-fit: cover; /* Ensure the image covers the area without stretching */
+}
+

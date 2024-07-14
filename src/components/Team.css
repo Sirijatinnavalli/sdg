@@ -34,7 +34,7 @@
   .member img {
     width: 100px; /* Adjusted size */
     height: 100px;
-    border-radius: 50%;
+    border-radius: 10%;
     margin-right: 20px; /* Space between image and text */
   }
   .member-info {

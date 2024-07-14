@@ -4,7 +4,7 @@ import './AboutUs.css';
 
 // Import the images
 import image1 from '../assets/images/image1.jpg';
-import image2 from '../assets/images/image2.jpg';
+
 
 
 import { FaCheckCircle } from 'react-icons/fa';  // Import tick mark icon from react-icons
@@ -16,7 +16,7 @@ const AboutUs = () => {
       <div class="intro-container">
         <div className="intro-images">
           <img src={image1} alt="Team meeting" />
-          <img src={image2} alt="Office workspace" />
+          
         </div>
         <div className="intro-text">
           <p className="welcome-text" style={{ color: 'green', fontWeight: 'bold' }}>• WELCOME TO OUR COMPANY</p>
