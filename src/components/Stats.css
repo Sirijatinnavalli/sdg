@@ -1,27 +1,4 @@
-/* Stats.css */
 
-.stats {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    background-color:#192F59; /* Dark blue background color */
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 90px;
-    margin-right: 90px;
-  }
-  
-  .stat-item {
-    text-align: center;
-    color: #fff; /* White text color */
-    font-size: large;
-  }
-  
-  .stat-item i {
-    font-size: 2em;
-    color: #78b48d; /* Blue color for icons */
-    margin-bottom: 10px;
-  }
   /* Stats.css */
 
 /* Default styles for desktop view */
@@ -32,8 +9,8 @@
   background-color: #192F59; /* Dark blue background color */
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 90px;
-  margin-right: 90px;
+  
+
 }
 
 .stat-item {
@@ -68,6 +45,8 @@
 
   .stat-item {
     margin-bottom: 20px;
+    width: 80%;
+    
   }
 
   .stat-item:last-child {

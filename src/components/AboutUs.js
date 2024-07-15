@@ -11,9 +11,9 @@ import { FaCheckCircle } from 'react-icons/fa';  // Import tick mark icon from r
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
-      <div className="intro-section">
-      <div class="intro-container">
+    <div className="about-us" >
+      <div className="intro-section" >
+      <div className="intro-container" style={{ width: '80%' }}>
         <div className="intro-images">
           <img src={image1} alt="Team meeting" />
           

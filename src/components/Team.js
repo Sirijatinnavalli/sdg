@@ -9,7 +9,7 @@ import member6 from '../assets/images/member6.jpg';
 
 const Team = () => {
   return (
-    
+     
       <div className="team">
         <h2>Our Team</h2>
         <div className="team-members">
@@ -17,7 +17,7 @@ const Team = () => {
             <div className="member">
               <img src={member1} alt="Brandon Copperfield" />
               <div className="member-info">
-                <h3>Brandon Copperfield</h3>
+                <h3>Brandonssss Copperfield</h3>
                 <p>Founder & CEO</p>
               </div>
             </div>

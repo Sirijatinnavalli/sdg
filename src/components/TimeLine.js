@@ -6,7 +6,7 @@ import './TimeLine.css';
 const TimeLine=()=>{ 
     return ( 
       
-<div className="container"> 
+<div> 
   
 
 
@@ -19,8 +19,8 @@ const TimeLine=()=>{
       <div className="circle"></div>
       <div className="line"></div>
     </div>
-<div className="timeline">
-<div className="timeline-item">
+<div className="timeline" >
+<div className="timeline-item" >
 <h2 className='h3' style={{ color: 'black'  }}>1985</h2>
   <img src={image1985} alt="1985" />
   

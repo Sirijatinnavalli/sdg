@@ -30,7 +30,7 @@ const steps = [
 
 const WorkProcess = () => {
   return (
-    <div style={styles.container}>
+    <div style={styles.container} >
       <h1 style={styles.title}>4 Steps Work Process</h1>
       <p style={styles.subtitle}>dolor sit consectetur adipicising elit. Morbi abortis ligula euismod seded estyam augue nisl consectetur . Lorem ipsum amet consectetur .</p>
       <div style={styles.steps}>
@@ -57,8 +57,10 @@ const styles = {
     fontFamily: 'Arial, sans-serif',
     textAlign: 'center',
     padding: '50px',
-    maxWidth: '1200px',
-    margin: '0 auto',
+    
+  
+  
+    
   },
   title: {
     fontSize: '2.5em',
