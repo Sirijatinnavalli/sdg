@@ -10,7 +10,7 @@
   margin-top: 20px;
  
   padding-top: 5%;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   padding-bottom: 5%;
   background: none;
 }
@@ -22,7 +22,7 @@
   background-color: #e2e6ec; /* Light bluish-grey background */
   padding: 40px 20px; /* Padding for the section */
   border-radius: 8px; /* Optional: Rounded corners for aesthetics */
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .intro-container {

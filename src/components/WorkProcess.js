@@ -57,6 +57,7 @@ const styles = {
     fontFamily: 'Arial, sans-serif',
     textAlign: 'center',
     padding: '50px',
+    marginBottom: '50px',
     
   
   

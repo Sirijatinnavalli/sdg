@@ -22,7 +22,7 @@
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center; /* Center navigation items */
+  justify-content: left; /* Center navigation items */
 }
 
 .header-link {
@@ -30,7 +30,7 @@
   color: white;
   font-weight: bold;
   position: relative;
-  margin: 0 10px; /* Space between links */
+  margin: 10px 10px; /* Space between links */
 }
 
 .header-bullet {
@@ -67,11 +67,12 @@
 
   .header-nav {
     font-size: 28px; /* Slightly smaller font size */
+    justify-content: left; 
   }
 
   .header-link {
     font-size: 0.9em; /* Slightly smaller font size */
-    margin: 0 8px; /* Adjust spacing */
+    margin: 5px 0; /* Adjust spacing */
   }
 }
 
@@ -83,21 +84,24 @@
   .header-nav {
     font-size: 24px; /* Smaller font size */
     flex-direction: column; /* Stack links vertically */
+    justify-content: left; 
   }
 
   .header-link {
     font-size: 0.8em; /* Smaller font size */
-    margin: 5px 0; /* Adjust spacing */
+    margin: 0 0; /* Adjust spacing */
   }
 }
 
 @media (max-width: 480px) {
   .header {
     height: 150px; /* Adjust for mobile */
+    
   }
 
   .header-nav {
     font-size: 20px; /* Smaller font size */
+    justify-content: left; 
   }
 
   .header-link {
